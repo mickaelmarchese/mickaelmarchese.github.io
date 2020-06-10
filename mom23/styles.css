@@ -1,7 +1,7 @@
 
 body {
     font-family: Playfair Display;
-    font-size: 16px;
+    font-size: 14px;
     color: #34495e;
     background: #f8f9fa;
     text-align:left;
@@ -10,7 +10,8 @@ body {
 header{
     /*position: -webkit-sticky; 
     position: sticky;*/
-    height:55px;
+    font-family: Montserrat;
+    height:75px;
     border-bottom: solid 1px #34495e;
     width:100%;
     background-color:#FFF;
@@ -18,9 +19,11 @@ header{
 }
 .headercontent{
     max-width: 750px;
+    min-width: 680px;
     text-align: left;
     margin: auto;
     padding-top:15px;
+    display: table;
 }
 .titre{
     width:70%;
@@ -39,7 +42,17 @@ header{
 svg {
     fill: #34495e;
 }
-
+.illustration{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
 .scroll__text{
     margin: 0 auto;
     width: 440px;
